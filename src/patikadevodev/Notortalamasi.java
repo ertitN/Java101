@@ -30,16 +30,5 @@ public class Notortalamasi {
         notortalamasi = (mat + fizik + kimya + turkce + tarih + muzik)/6;
         sonuc = (notortalamasi > 60) ? "Sınıfı geçti" : "Sınıfta Kaldı";
         System.out.println("Ortalamanız: "+notortalamasi+"\nGeçme Durumu: "+sonuc);
-
-
-
-
-
-
-
-
-
-
-
     }
 }
