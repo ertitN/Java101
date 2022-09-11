@@ -26,7 +26,7 @@ public class Userlogin {
 
         if(userName.equals(unameInput) && password.equals(passwordInput)) {
             System.out.println("Giriş başarılı.");
-        } else if(passwordInput.equals(password)== false && userName.equals(unameInput)) {
+        } else if(!(passwordInput.equals(password)) && userName.equals(unameInput)) {
             System.out.println("Giriş başarısız. Şifrenizi sıfırlamak isterseniz 1\n Çıkış yapmak isterseniz 2'yi tuşlayınız");
             select = input.nextByte();
             input.nextLine();
