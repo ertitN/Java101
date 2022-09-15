@@ -16,7 +16,8 @@ public class DivisibleNumbers {
        int num = input.nextInt();
 
        for(int i=0;i<=num;i++){
-           if(i%12==0){
+           
+           if(i%12==0){   // 12'ye kalansız bölünebilen sayılar 3 ve 4 ' e de kalansız bölünebilir.
                 sum += i;
                 counter++;
 
@@ -24,10 +25,5 @@ public class DivisibleNumbers {
        }
        avg = (sum/counter);
         System.out.println(avg);
-
-
-
-
-
     }
 }
