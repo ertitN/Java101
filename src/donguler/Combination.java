@@ -9,7 +9,6 @@ public class Combination {
 
         int result;
 
-
         System.out.println("Hesaplamak istediğiniz kombinasyon sayılarını sırasıyla giriniz.");
 
             int n = scan.nextInt();
@@ -18,7 +17,6 @@ public class Combination {
         for(int i = n-1; i>=1;i--){
                 n *=i;
         }
-
 
         int r = scan.nextInt();
         diff -= r;
@@ -32,12 +30,6 @@ public class Combination {
         }
         result = n/(r*diff);
         System.out.println(result);
-
-
-
-
-
-
 
 
     }
