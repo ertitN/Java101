@@ -12,7 +12,7 @@ public class SumofDigits {
 
         do{
 
-             total = total + (num%10);
+             total += (num%10);
             System.out.println(num%10);
             num /=10;
 
