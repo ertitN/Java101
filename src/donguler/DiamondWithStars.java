@@ -21,7 +21,6 @@ public class DiamondWithStars {
         for(int i=1;i<=n;i++){
             sum -= 2;
 
-
             for(int k=1;k<=i;k++){
                 System.out.print(" ");
 
@@ -31,7 +30,6 @@ public class DiamondWithStars {
 
                 System.out.print("*");
             }
-
 
             System.out.println("");
         }
