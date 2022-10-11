@@ -26,9 +26,9 @@ public class PalindromicNumber {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Sayı giriniz:");
-        int sayi = scan.nextInt();
+        int number = scan.nextInt();
 
-        System.out.println(ifPalindrom(sayi));
+        System.out.println(ifPalindrom(number));
 
 
 
