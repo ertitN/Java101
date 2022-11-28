@@ -19,7 +19,7 @@ public class SortingNumbers {
                 if(arr[i]<arr[j]){
                     num = arr[i];
                     arr[i] = arr[j];
-                    arr[j] = num; // 5 20 10 4 20
+                    arr[j] = num; 
                 }
             }
         }
